@@ -1,0 +1,25 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    width: 50px;
+}
+
+p {
+    color: deeppink;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    row-gap: 20px 20px;
+    border: 2px solid none;
+    color: deeppink;
+}
+
+.message {
+    width: 200px;
+    height: 300px;
+}

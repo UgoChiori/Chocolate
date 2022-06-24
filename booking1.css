@@ -1,0 +1,94 @@
+:root {
+    --custom-color: black;
+    --padding: 20px;
+    --medium-font-size: 1em;
+    --big-font-size: 2.5em;
+    --border-radius: 8px;
+    --input-padding: 10px 25px;
+    --margin-bottom: 10px;
+    --border: 1px solid black;
+    --margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+:root {
+    --custom-color: black;
+    --padding: 20px;
+    --medium-font-size: 1em;
+    --big-font-size: 2.5em;
+    --border-radius: 8px;
+    --input-padding: 10px 25px;
+    --margin-bottom: 10px;
+    --border: 1px solid black;
+    --margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+input {
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    padding: var(--input-padding);
+    border: var(--border);
+    color: var(--custom-color);
+}
+
+.input-grp {
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    padding: var(--input-padding);
+    color: var(--custom-color);
+}
+
+.booking-form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    max-width: 350px;
+    border: 1px solid black;
+    margin: 10% auto;
+    padding: var(--padding);
+}
+
+button {
+    color: none;
+    margin-top: var(--margin-top);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: pointer;
+    background-color: none;
+    font-size: var(--medium-font-size);
+    transition: 0.3s;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}

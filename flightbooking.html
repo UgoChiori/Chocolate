@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./flightbooking.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <h1 class="form-head">Find the best deals on flights now</h1>
+        <form action="" method="post" class="form">
+
+            <div class="form-group">
+                <div class="radio-btn">
+                    <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
+                    <input type="radio" class="btn" name="check"><span>One Way</span>
+                    <input type="radio" class="btn" name="check"><span>Multi-City</span>
+                </div>
+
+
+                <div class="container-departure">
+                    <label>Flying From</label>
+                    <input type="text" class="form-contol" placeholder="City or Airport">
+                </div>
+
+
+
+                <div class="container-destination">
+                    <label>Flying To</label>
+                    <input type="text" class="form-contol" placeholder="City or Airport">
+
+                </div>
+
+
+                <div>
+                    <label for="departure_date ">Depart date</label>
+                    <input type="date"></input>
+                </div>
+
+                <div>
+                    <label for="return_date ">Return date</label>
+                    <input type="date"></input>
+                </div>
+
+
+
+                <div class="adults-grp">
+                    <label>Adults</label>
+                    <input type="number" class="form-contol" value="1">
+                </div>
+                <div class="input-grp">
+                    <label>Children</label>
+                    <input type="number" class="form-contol" value="0">
+                </div>
+
+                <div class="input-grp">
+                    <label></label>
+                    <select class="custom-select">
+                            <option value="1">Economy</option>
+                            <option value="2">Business Class</option>
+                        </select>
+                </div>
+
+
+
+
+
+
+                <div>
+                    <button>SEARCH FLIGHTS</button>
+                </div>
+
+
+        </form>
+    </main>
+</body>
+
+</html>

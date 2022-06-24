@@ -1,0 +1,8 @@
+@keyframes welcomenoteslider {
+    from {
+        background-color: pink;
+    }
+    to {
+        background-color: deeppink;
+    }
+}

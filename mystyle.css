@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    width: 50;
+    height: 50px;
+    border: 2px solid none;
+    display: inline;
+    padding: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: lightpink;
+}
+
+img {
+    width: 500;
+    height: 500px;
+    opacity: 0.2;
+}
+
+p {
+    z-index: 2;
+    position: absolute;
+    margin-top: 0;
+}

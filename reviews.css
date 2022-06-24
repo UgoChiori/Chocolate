@@ -1,0 +1,10 @@
+header {
+    color: hotpink;
+    text-underline-position: below;
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-color: pink;
+}

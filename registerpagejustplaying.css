@@ -1,0 +1,99 @@
+:root {
+    --custom-color: deeppink;
+    --padding: 20px;
+    --medium-font-size: 1em;
+    --big-font-size: 2.5em;
+    --border-radius: 8px;
+    --input-padding: 10px 25px;
+    --margin-bottom: 10px;
+    --border: 1px solid deeppink;
+    --margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+body {
+    font-size: 15px;
+    font-family: cursive;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: deeppink;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-head {
+    text-align: center;
+    color: deeppink;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group-label {
+    color: var(--custom-color);
+    font-size: var(--medium-font-size);
+    margin-bottom: var(--margin-bottom);
+}
+
+button {
+    color: deeppink;
+    margin-top: var(--margin-top);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    cursor: pointer;
+    background-color: plum;
+    font-size: var(--medium-font-size);
+    transition: 0.3s;
+}
+
+button:hover {
+    background: purple;
+}
+
+input {
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    padding: var(--input-padding);
+    border: var(--border);
+    color: var(--custom-color);
+}
+
+input::placeholder {
+    font-size: smaller;
+    color: gray;
+}
+
+input:focus {
+    outline-color: deeppink;
+}
+
+select {
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    color: grey;
+}

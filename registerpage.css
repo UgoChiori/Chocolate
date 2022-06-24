@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+}
+
+p {
+    color: deeppink;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+div {
+    row-gap: 20px 20px;
+    border: 2px solid none;
+    color: deeppink;
+}

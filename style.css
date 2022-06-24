@@ -1,0 +1,32 @@
+p {
+    color: blue;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#paragraph {
+    color: aqua;
+}
+
+#paragraph {
+    color: blue;
+}
+
+video {
+    width: 150px;
+    height: 300px
+}

@@ -1,0 +1,15 @@
+header {
+    color: hotpink;
+    text-underline-position: below;
+    text-align: center;
+}
+
+body {
+    background-color: pink;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    padding: 2px;
+}
